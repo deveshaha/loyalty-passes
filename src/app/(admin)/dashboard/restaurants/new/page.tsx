@@ -76,7 +76,7 @@ export default function NewRestaurantPage() {
             className="mt-1 w-full rounded-md border px-3 py-2"
             value={name}
             onChange={(e) => setName(e.target.value)}
-            placeholder="Ej: Pastorcitos"
+            placeholder="Nombre de tu restaurante"
             required
           />
         </div>
